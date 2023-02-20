@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Denver Direction Finder",
+  "description": "Displays an arrow pointing in the direction of Denver, Colorado",
+  "version": "1.0",
+  "permissions": [
+    "geolocation"
+  ],
+  "browser_action": {
+    "default_icon": "right-arrow.png",
+    "default_popup": "popup.html"
+  }
+}
